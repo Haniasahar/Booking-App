@@ -1,0 +1,86 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main{
+    padding-top: 2%;
+    padding-bottom: 8%;
+    background-color: grey;
+}
+
+.form {
+    width: 50%;
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-left: 25%;
+    margin-top: 9%;
+    color: #003580;
+    background-color: rgb(222, 198, 198);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 4.5%;
+    padding-bottom: 5%;
+}
+
+.form h1 {
+    color: #003580;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 3%;
+}
+
+input {
+    width: 280px;
+}
+
+label {
+    font-size: large;
+    display: block;
+    font-weight: 700;
+}
+
+.submit {
+    margin-top: 7%;
+    margin-left: 30%;
+    color: white;
+    background-color: navy;
+    border: 0;
+    outline: 0;
+    border-radius: 10%;
+    padding: 5%;
+    display: block;
+}
+
+@media screen and (max-width:800px) {
+    .form {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width:530px) {
+
+    .form{
+        height: 300px;
+   }
+
+   .form h1{
+    font-size: 25px;
+   }
+
+   input{
+    width: 150px;
+   }
+}
+
+
+@media screen and (max-width:400px) {
+
+   .form h1{
+    font-size: 20px;
+   }
+
+   input{
+    width: 150px;
+   }
+}

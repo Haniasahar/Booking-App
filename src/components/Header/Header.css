@@ -1,44 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
-    body {  
-        font-family: 'Roboto', sans-serif;  
-    }
-
-.header{
+.header {
     background-color: #003580;
     color: white;
     display: flex;
     justify-content: center;
     position: relative;
-
 }
-.headerContainer{
+
+.headerContainer {
     width: 100%;
-    max-width: 1024px ;
+    max-width: 1024px;
     margin: 20px 0px 100px 0px;
 }
 
-.headerContainer.ListMode{
+.headerContainer.ListMode {
     margin: 20px 0px 0px 0px;
 }
-.headerList{
+
+.headerList {
     display: flex;
     gap: 40px;
     margin-bottom: 50px;
 }
-.HeaderListItems{
+
+.HeaderListItems {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-.HeaderListItems.active{
-    border: 1px solid white;
+    cursor: pointer;
     padding: 10px;
     border-radius: 20px;
 }
-.headerDes{
+
+.HeaderListItems:hover{
+    background-color: rgb(137, 140, 143);
+}
+
+.HeaderListItems.active {
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+    background: transparent;
+}
+
+.headerDes {
     margin: 20px 0px;
 }
-.header-btn{
+
+.header-btn {
     background-color: #0071c2;
     color: white;
     font-weight: 500;
@@ -47,7 +59,7 @@
     cursor: pointer;
 }
 
-.headersearch{
+.headersearch {
     height: 30px;
     background-color: white;
     border: 3px solid #febb02;
@@ -61,51 +73,60 @@
     width: 100%;
     max-width: 1024px;
 }
-.headerIcon{
+
+.headerIcon {
     color: darkgray;
 }
-.headerSearchItem{
+
+.headerSearchItem {
     display: flex;
     align-items: center;
     gap: 10px;
 }
-.headerSearchInput{
+
+.headerSearchInput {
     border: none;
     outline: none;
 }
-.headersearchText{
+
+.headersearchText {
     color: Lightgray;
     cursor: pointer;
 }
-.date{
+
+.date {
     position: absolute;
     top: 50px;
     z-index: 2;
 }
-.options{
+
+.options {
     z-index: 2;
     position: absolute;
     top: 50px;
     background-color: white;
     color: gray;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.4);
-    box-shadow: 0px 0px 10px -5px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
 }
-.optionItem{
+
+.optionItem {
     width: 200px;
     display: flex;
     justify-content: space-between;
     margin: 10px;
 }
-.optionCounter{
+
+.optionCounter {
     display: flex;
     align-items: center;
     gap: 10px;
     font-size: 12px;
     color: black;
 }
-.optionCounterButton{
+
+.optionCounterButton {
     width: 30px;
     height: 30px;
     border: 1px solid #0071c2;
@@ -113,6 +134,7 @@
     cursor: pointer;
     background-color: white;
 }
-.optionCounterButton:disabled{
-cursor: not-allowed;
+
+.optionCounterButton:disabled {
+    cursor: not-allowed;
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import './featured.css'
 import Dublin from '../../assets/Dublin.jpg'
 import Austin from '../../assets/Austin.jpg'
-import Reno from '../../assets/Reno1.jpg'
+import Reno from '../../assets/Reno.jpg'
 
 const Featured = () => {
   return (

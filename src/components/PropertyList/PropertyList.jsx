@@ -1,10 +1,10 @@
 import React from 'react'
 import './propertyList.css'
-import Hotels from '../../assets/hotel1.jpg'
+import Hotels from '../../assets/hotel.jpg'
 import Apartment from '../../assets/Apartment.jpg'
 import Resorts from '../../assets/Resort.jpg'
 import Villas from '../../assets/Villas.jpg'
-import Cabin from '../../assets/Cabins.jpg'
+import Cabin from '../../assets/Cabbins.jpg'
 
 const PropertyList = () => {
   return (
@@ -45,7 +45,7 @@ const PropertyList = () => {
 
 
        <div className="pListItem">
-       <img src={Cabin} altclassName="pListItem" />
+       <img src={Cabin} className="pListItem" />
        <div className="pListTitles">
         <h1>Cabbins</h1>
         <h2>233 hotels</h2>

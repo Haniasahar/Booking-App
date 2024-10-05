@@ -44,8 +44,30 @@ const Header = ({ type }) => {
   const [destination, setDestination] = useState("");
   const navigate = useNavigate();
   const handleSearch = () => {
-    navigate("/hotels", { state: { destination, date, options } });
+    navigate("/hotels", { state: { destination, date, options } },
+      localStorage.setItem("Destination", (destination), JSON.stringify()),
+
+      localStorage.setItem("Date", `${format(date[0].startDate, "MM/dd/yyyy")} to ${format(date[0].endDate, "MM/dd/yyyy")}`, JSON.stringify()),
+
+      localStorage.setItem("No of Adults", `${options.adult}`, JSON.stringify()),
+      localStorage.setItem("No of Children", `${options.children}`, JSON.stringify()),
+      localStorage.setItem("No of Rooms", `${options.room}`, JSON.stringify())
+
+    )
   }
+
+  // const searchHotel = async () => {
+
+  //     const response = await fetch("https://serpapi.com/search.json?engine=google_jobs&q=barista+new+york$type=track",
+  //       {mode:"no-cors"});
+
+  //     const data = await response.json();
+
+  //     console.log(data);
+
+  //     document.querySelector(".siTitle").innerHTML = data.properties.name;
+
+  // }
 
   return (
     <div className="header">
@@ -138,7 +160,7 @@ const Header = ({ type }) => {
               </div>
 
               <div className="headerSearchItem">
-                <button className="header-btn" onClick={handleSearch} >Search</button>
+                <button className="header-btn" onClick={handleSearch}>Search</button>
               </div>
             </div></>}
       </div>

@@ -9,34 +9,30 @@ const SearchItem = () => {
         navigate("/hotels/:id")
     }
 
-    const apiUrl = "https://serpapi.com/search.json?engine=google_hotels&q=Bali+Resorts&check_in_date=2024-10-03&check_out_date=2024-10-04&adults=2&currency=USD&gl=us&hl=en"
-    const apiKey = "secret_api_key"
+    {// const [keyword, setKeyword] = useState("");
+        // const [tracks, setTracks] = useState([]);
 
-    async function searchHotel(hotel) {
-
-        let data = await response.json();
-
-        const response = await fetch(apiUrl + hotel + `&appid=${apiKey}`);
-
-        document.querySelector(".siTitle").innerHTML = data.properties.name;
-
+        // const getTracks = async () => {
+        //   let data = await fetch(`https://serpapi.com/search.json?engine=google_hotels&q=Bali+Resorts&check_in_date=2024-10-03&check_out_date=2024-10-04&adults=2&currency=USD&gl=us&hl=en`);
+        //   let c_data = await data.json();
+        //   console.log(c_data.tracks.items);
+        //   setTracks(c_data.tracks.items);
+        // }
     }
 
-    //     const { getJson } = require("serpapi");
+    // const apiUrl = "https://serpapi.com/search.json?engine=google_hotels&q=Bali+Resorts&check_in_date=2024-10-03&check_out_date=2024-10-04&adults=2&currency=USD&gl=us&hl=en"
+    // const apiKey = "secret_api_key"
 
-    //   getJson({
-    //     engine: "google_hotels",
-    //     q: "Bali Resorts",
-    //     check_in_date: "2024-10-03",
-    //     check_out_date: "2024-10-04",
-    //     adults: "2",
-    //     currency: "USD",
-    //     gl: "us",
-    //     hl: "en",
-    //     apiKey: "secret_api_key"
-    //   }, (json) => {
-    //     console.log(json);
-    //   });
+    // const searchHotel = async () => {
+
+    //     const response = await fetch(apiUrl + hotel + `&appid=${apiKey}`);
+    //     const data = await response.json();
+
+    //     console.log(data);
+
+    //     document.querySelector(".siTitle").innerHTML = data.properties.name;
+
+    // }
 
     return (
         <div className="SearchItem">

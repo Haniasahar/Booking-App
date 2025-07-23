@@ -1,7 +1,6 @@
-# 🏨 React Booking App  
+# 🏨 React Booking App
 
-🔹 **Tech Badges**  
-⚛️ React 18.2 | 🟣 Redux Toolkit | 🎨 CSS3 | 🔀 React Router 6.4  
+<div align="center"> <img src="https://img.shields.io/badge/React-18.2-blue?logo=react" alt="React"/> <img src="https://img.shields.io/badge/Redux-Toolkit-764ABC?logo=redux" alt="Redux"/> <img src="https://img.shields.io/badge/Styled-CSS3-orange?logo=css3" alt="CSS3"/> <img src="https://img.shields.io/badge/Router-v6.4-red?logo=react-router" alt="React Router"/> </div>
 
 ---
 

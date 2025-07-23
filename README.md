@@ -4,7 +4,7 @@
 
 <a href="https://kidsbookingapp.netlify.app/">VISIT APP</a>
 
-## ✨ **Features**  
+## ✨ Features 
 ✅ User-friendly UI with React components + CSS animations  
 ✅ State management via 🟣 Redux  
 📅 Interactive date picker (`react-date-range`)  
@@ -12,7 +12,7 @@
 
 ---
 
-## 🛠️ **Tech Stack**  
+## 🛠️ Tech Stack
 | Tech        | Use Case          |
 |-------------|-------------------|
 | 📄 HTML5    | App structure     |

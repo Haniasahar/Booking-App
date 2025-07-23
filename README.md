@@ -27,10 +27,14 @@
 
 ```bash
 "dependencies": {
-  "react": "^18.2.0",
-  "react-redux": "^8.1.3",
+  "react": "^18.3.1",
+  "react-redux": "^9.1.2",
   "react-date-range": "^1.4.0",
-  "react-router-dom": "^6.4.1"
+  "react-router-dom": "^6.26.2"
+  "react-date-range": "^2.0.1",
+  "react-icons": "^5.3.0",
+  "dist": "^0.1.2",
+  "formik": "^2.4.6",
 }
 ```
 
@@ -38,7 +42,7 @@
 
 Clone the repo:
 ```bash
-git clone https://github.com/your-username/booking-app.git
+git clone https://github.com/Haniasahar/Booking-App.git
 ```
 
 Install packages:
